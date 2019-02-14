@@ -67,7 +67,7 @@ table {
 }
 .sec2 {
     border-top: 1px solid black;
-    margin-top: 20px
+    padding: 20px;
 }
 
 .box1 {
