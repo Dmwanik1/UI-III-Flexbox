@@ -69,23 +69,23 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 .container {	
 	width: 880px;
-	margin: 0 auto;
-	padding: 20px;
-	
-  }
+	margin:  auto;
+	}
+	header {
+    width: 100%;
+    display: flex;
+}
   
 
   header nav {
-	display: flex;
+	display:inline-block;
 	width: 691px; 
 	vertical-align: top;
 	margin-top: 35px;
-	justify-content: space-around;
-	padding: 20px;
   }
   
   header nav a {
-	display: flex;
+	display: inline-block;
 	margin-right: 65px;
 	font-size: 14px;
 	color: gray;
@@ -108,12 +108,14 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	margin-top: 0 auto;
 	}
+	
 	h2 {
 		font-style: italic;
 	}
+	
 	h2::first-letter {
 		font-size: 150%;
-		font-weight: bold
+		font-weight: bold;
 	}
   
  .cta .cta-text {
